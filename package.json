@@ -1,0 +1,28 @@
+{
+  "name": "build-my-vision",
+  "version": "1.0.0",
+  "description": "Design Collaboration Platform for Architects and Customers",
+  "main": "server/index.js",
+  "scripts": {
+    "dev": "concurrently -n \"SERVER,CLIENT\" -c \"blue,green\" \"npm run server\" \"npm run client\"",
+    "server": "node server/index.js",
+    "client": "npm --prefix client run dev",
+    "build": "npm --prefix client run build",
+    "seed": "node server/seeds/seedData.js",
+    "start": "node server/index.js"
+  },
+  "keywords": [
+    "architecture",
+    "design",
+    "collaboration",
+    "blueprints",
+    "react",
+    "mysql",
+    "socketio"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
