@@ -1,0 +1,920 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "created_at": "2026-10-11T11:03:02.845Z",
+      "name": "Elena Vance, AIA",
+      "email": "designer@vision.com",
+      "password": "$2a$10$Qk9x9gJxualVIBYiifdaRe5Ny0tsEq5YUc1.Gn4fGib/EnTV4aemy",
+      "role": "designer",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=400&q=80",
+      "phone": "+1 (555) 234-5678",
+      "bio": "Award-winning architect specializing in sustainable passive homes and biophilic architecture. 10+ years experience transforming residential dreams into eco-friendly sanctuaries."
+    },
+    {
+      "id": 2,
+      "created_at": "2026-10-11T11:03:02.847Z",
+      "name": "Marcus Sterling, PE",
+      "email": "marcus@vision.com",
+      "password": "$2a$10$Qk9x9gJxualVIBYiifdaRe5Ny0tsEq5YUc1.Gn4fGib/EnTV4aemy",
+      "role": "designer",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=400&q=80",
+      "phone": "+1 (555) 345-6789",
+      "bio": "Structural engineer and modern minimalist architect. Expert in large-span commercial spaces, steel-frame buildings, and contemporary open-concept residences."
+    },
+    {
+      "id": 3,
+      "created_at": "2026-10-11T11:03:02.848Z",
+      "name": "Sarah Lin",
+      "email": "sarah@vision.com",
+      "password": "$2a$10$Qk9x9gJxualVIBYiifdaRe5Ny0tsEq5YUc1.Gn4fGib/EnTV4aemy",
+      "role": "designer",
+      "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=400&q=80",
+      "phone": "+1 (555) 456-7890",
+      "bio": "Educational & civic facility planner. Passionate about designing dynamic learning environments, children’s spaces, and adaptive reuse community buildings."
+    },
+    {
+      "id": 4,
+      "created_at": "2026-10-11T11:03:02.849Z",
+      "name": "Alex Morgan",
+      "email": "customer@vision.com",
+      "password": "$2a$10$Qk9x9gJxualVIBYiifdaRe5Ny0tsEq5YUc1.Gn4fGib/EnTV4aemy",
+      "role": "customer",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=400&q=80",
+      "phone": "+1 (555) 876-5432",
+      "bio": "First-time homebuilder planning a family dream villa with lots of natural sunlight and sustainable materials."
+    },
+    {
+      "id": 5,
+      "created_at": "2026-10-11T11:03:02.850Z",
+      "name": "David Patel",
+      "email": "david@vision.com",
+      "password": "$2a$10$Qk9x9gJxualVIBYiifdaRe5Ny0tsEq5YUc1.Gn4fGib/EnTV4aemy",
+      "role": "customer",
+      "avatar": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=400&q=80",
+      "phone": "+1 (555) 987-6543",
+      "bio": "Startup founder building a boutique headquarters and community cafe."
+    },
+    {
+      "id": 6,
+      "created_at": "2026-10-11T11:27:03.960Z",
+      "name": "Divya",
+      "email": "aish.divya.sp_bcs27@mepcoeng.ac.in",
+      "password": "$2a$10$MU7LRsw7MMyxcJmgy.vNvugiqhcb/Ng0/agG8znaFkVgInn.n4Qs2",
+      "role": "customer",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=256&q=80",
+      "phone": null,
+      "bio": "Visionary Homebuilder"
+    },
+    {
+      "id": 7,
+      "created_at": "2026-10-21T12:37:31.325Z",
+      "name": "Priya",
+      "email": "dvywhimsy2506@gmail.com",
+      "password": "$2a$10$l0CHmLCbAIzz.lTDc2rGJupCoDk53bKo7ktgySh7PlIqZ1C9V.CPK",
+      "role": "designer",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=256&q=80",
+      "phone": null,
+      "bio": "Architect & Spatial Designer"
+    }
+  ],
+  "designer_profiles": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "title": "Lead Architect & Passive House Specialist",
+      "specializations": [
+        "Sustainable / Biophilic",
+        "Modern Minimalist",
+        "Residential Homes",
+        "Passive Solar"
+      ],
+      "experience_years": 10,
+      "location": "Portland, OR / Remote",
+      "rating": 4.96,
+      "reviews_count": 38,
+      "completed_projects": 45,
+      "bio": "Dedicated to bringing warmth and natural daylight into every corner. I work directly with everyday homeowners without technical jargon.",
+      "education_credentials": "M.Arch Harvard GSD, LEED AP BD+C",
+      "software_tools": "AutoCAD, Revit, SketchUp, Lumion, Rhino 3D",
+      "featured": true
+    },
+    {
+      "id": 2,
+      "user_id": 2,
+      "title": "Senior Structural Engineer & Architect",
+      "specializations": [
+        "Commercial Buildings",
+        "Structural Engineering",
+        "Industrial / Modern",
+        "Retail & Hospitality"
+      ],
+      "experience_years": 12,
+      "location": "Chicago, IL / Remote",
+      "rating": 4.92,
+      "reviews_count": 29,
+      "completed_projects": 52,
+      "bio": "I fuse structural rigor with clean aesthetic lines. Specializing in high-efficiency workspaces and cantilevered residential homes.",
+      "education_credentials": "M.S. Structural Engineering, Licensed PE",
+      "software_tools": "ETABS, AutoCAD, Revit, SAP2000, 3ds Max",
+      "featured": true
+    },
+    {
+      "id": 3,
+      "user_id": 3,
+      "title": "Educational & Community Architect",
+      "specializations": [
+        "Educational / Schools",
+        "Community Centers",
+        "Daycares",
+        "Playgrounds"
+      ],
+      "experience_years": 8,
+      "location": "Austin, TX / Remote",
+      "rating": 4.88,
+      "reviews_count": 24,
+      "completed_projects": 31,
+      "bio": "Creating human-centered learning environments where natural light and flexible zones spark creativity and safety.",
+      "education_credentials": "B.Arch Cornell University",
+      "software_tools": "ArchiCAD, SketchUp, Enscape, Photoshop",
+      "featured": false
+    },
+    {
+      "id": 4,
+      "user_id": 7,
+      "title": "Architectural Designer",
+      "specializations": [
+        "Residential Homes",
+        "Sustainable Architecture",
+        "Interior Concepts"
+      ],
+      "experience_years": 4,
+      "location": "Remote / Global",
+      "bio": "Passionate architect focused on translating client dreams into feasible construction schematics.",
+      "education_credentials": "B.Arch, Registered Architect",
+      "software_tools": "AutoCAD, Revit, SketchUp, Lumion"
+    }
+  ],
+  "portfolios": [
+    {
+      "id": 1,
+      "created_at": "2026-10-11T11:03:02.854Z",
+      "designer_id": 1,
+      "title": "The Solarium Eco-Villa",
+      "category": "residential",
+      "description": "A 3,200 sq.ft net-zero residential villa with south-facing double glazing, rammed-earth thermal mass walls, and a central biophilic garden courtyard.",
+      "image_url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+      "blueprint_url": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80",
+      "style": "Sustainable / Biophilic",
+      "area_sqft": 3200,
+      "location": "Bend, Oregon",
+      "year_completed": 2024,
+      "tags": [
+        "Solar Orientation",
+        "Biophilic Courtyard",
+        "Passive Cooling",
+        "Open Concept"
+      ]
+    },
+    {
+      "id": 2,
+      "created_at": "2026-10-11T11:03:02.855Z",
+      "designer_id": 1,
+      "title": "Nordic Timber Chalet",
+      "category": "residential",
+      "description": "Minimalist Scandinavian lakeside home featuring mass timber glulam framing, floor-to-ceiling panoramic views, and acoustic cedar ceilings.",
+      "image_url": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80",
+      "blueprint_url": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1200&q=80",
+      "style": "Scandinavian Minimalist",
+      "area_sqft": 2400,
+      "location": "Lake Tahoe, CA",
+      "year_completed": 2023,
+      "tags": [
+        "Mass Timber",
+        "Nordic Light",
+        "Triple Glazing",
+        "Fireplace Hearth"
+      ]
+    },
+    {
+      "id": 3,
+      "created_at": "2026-10-11T11:03:02.856Z",
+      "designer_id": 2,
+      "title": "Apex Innovation Tech Loft",
+      "category": "commercial",
+      "description": "Converted historic industrial warehouse into an open-plan tech creative campus with cantilevered mezzanine meeting pods and acoustic micro-offices.",
+      "image_url": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=80",
+      "blueprint_url": "https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=1200&q=80",
+      "style": "Industrial Modern",
+      "area_sqft": 8500,
+      "location": "West Loop, Chicago",
+      "year_completed": 2024,
+      "tags": [
+        "Steel Trusses",
+        "Exposed Concrete",
+        "Acoustic Pods",
+        "Collaborative Zones"
+      ]
+    },
+    {
+      "id": 4,
+      "created_at": "2026-10-11T11:03:02.857Z",
+      "designer_id": 3,
+      "title": "Greenwood Montessori Early Learning Center",
+      "category": "educational",
+      "description": "Child-scale exploratory educational campus with sunlit circular classrooms, indoor sensory sand gardens, and zero-barrier outdoor nature play corridors.",
+      "image_url": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=1200&q=80",
+      "blueprint_url": "https://images.unsplash.com/photo-1577495508048-b635879837f1?auto=format&fit=crop&w=1200&q=80",
+      "style": "Contemporary Child-Centric",
+      "area_sqft": 6400,
+      "location": "Austin, Texas",
+      "year_completed": 2024,
+      "tags": [
+        "Daylit Classrooms",
+        "Acoustic Isolation",
+        "Child Ergonomics",
+        "Courtyard Play"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "status": "client_review",
+      "created_at": "2026-10-11T11:03:02.859Z",
+      "updated_at": "2026-10-11T11:03:02.860Z",
+      "customer_id": 4,
+      "designer_id": 1,
+      "title": "Morning Sun Family Sanctuary",
+      "building_type": "residential_home",
+      "plot_dimensions": "60ft x 110ft (Corner Lot)",
+      "num_floors": 2,
+      "rooms_needed": "4 Bedrooms, 3.5 Baths, Home Office, Sunlit Kitchen & Walk-in Pantry",
+      "style_preference": "Modern Minimalist",
+      "budget_range": "$120,000 - $180,000",
+      "timeline_preference": "3 - 4 months",
+      "description": "We want our living area and breakfast nook flooded with morning sunlight. The children need a safe playroom on the ground floor with views from the kitchen, and my partner needs a quiet, sound-insulated office for video calls. An outdoor deck connected seamlessly to the kitchen is a must!",
+      "special_requirements": "Wheelchair-friendly guest bedroom on ground floor; provision for future solar rooftop panels; warm wooden textures instead of cold hospital whites.",
+      "inspiration_urls": [
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=800&q=80"
+      ],
+      "technical_summary": {
+        "architectural_classification": "MODERN MINIMALIST RESIDENTIAL HOME",
+        "spatial_layout": "Open-concept continuous spatial flow with column-free spans, integrating kitchen-dining-living into a unified great room with visual axis to outdoor courtyard.",
+        "fenestration_and_lighting": "High-performance solar orientation: East/South-facing clerestory glazing, floor-to-ceiling curtain walls, and UV-filtering double-glazed units for daylight factor optimization.",
+        "structural_and_materials": "Reinforced concrete post-and-beam with glulam timber accents, engineered white oak flooring, acoustic plasterboard ceiling panels.",
+        "sustainability_and_mep": [
+          "Rooftop Photovoltaic (PV) array conduit pre-install & inverter battery storage provision.",
+          "STC 55+ acoustic partition assemblies for sound transmission loss in office suite.",
+          "ADA Universal Design compliance: zero-threshold entries and ground floor accessible suite."
+        ],
+        "kickoff_alignment_checklist": [
+          "Confirm preferred floor-to-ceiling heights (9ft standard vs 10.5ft voluminous).",
+          "Review municipal setback rules for corner lot driveway positioning.",
+          "Verify passive shading overhang depth to prevent summer glare."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "status": "concept_drafting",
+      "created_at": "2026-10-11T11:03:02.866Z",
+      "updated_at": "2026-10-11T11:03:02.866Z",
+      "customer_id": 5,
+      "designer_id": 2,
+      "title": "Catalyst Creative Tech Hub & Cafe",
+      "building_type": "commercial_building",
+      "plot_dimensions": "80ft x 140ft",
+      "num_floors": 3,
+      "rooms_needed": "Ground Floor Espresso Bar, 2 Floors Open Co-working & Boardrooms",
+      "style_preference": "Industrial Modern",
+      "budget_range": "$250,000+",
+      "timeline_preference": "4 - 6 months",
+      "description": "A vibrant multi-use creative commercial building. Street-facing public coffee roastery on ground floor, with modern tech offices above featuring high ceilings, exposed black steel framing, and glass partitions.",
+      "special_requirements": "Heavy acoustic dampening between cafe and 2nd floor offices; freight elevator or wide service staircase; high-capacity fiber routing conduits.",
+      "inspiration_urls": [
+        "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80"
+      ],
+      "technical_summary": {
+        "architectural_classification": "INDUSTRIAL MODERN COMMERCIAL BUILDING",
+        "spatial_layout": "Mixed-use vertical zoning: public mercantile at grade level with secured access control to upper-level creative studios.",
+        "fenestration_and_lighting": "Storefront commercial glazing system with acoustic laminate panes (OITC 38) and industrial aluminum mullions.",
+        "structural_and_materials": "Exposed structural steel portal frames, corrugated metal composite decking with 4-inch concrete slab top.",
+        "sustainability_and_mep": [
+          "Dedicated outdoor air system (DOAS) with heat recovery ventilation for high-occupancy workspaces.",
+          "High-density STC 60 acoustic floor barrier separating ground floor roastery from second floor workspaces."
+        ],
+        "kickoff_alignment_checklist": [
+          "Confirm municipal commercial parking stalls ratio requirements.",
+          "Verify fire sprinkler riser placement and dual egress emergency stairs."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "status": "submitted",
+      "created_at": "2026-10-11T11:03:02.867Z",
+      "updated_at": "2026-10-11T11:03:02.867Z",
+      "customer_id": 4,
+      "designer_id": null,
+      "title": "Meadowview Eco-Cabin & Studio",
+      "building_type": "tiny_house",
+      "plot_dimensions": "40ft x 60ft rural plot",
+      "num_floors": 1,
+      "rooms_needed": "1 Bedroom, Loft Sleeping, Compact Kitchenette, Covered Porch",
+      "style_preference": "Sustainable / Biophilic",
+      "budget_range": "$40,000 - $70,000",
+      "timeline_preference": "1 - 2 months",
+      "description": "Looking to build an off-grid tiny cabin retreat with a sleeping loft, compost toilet plumbing setup, wood burning stove, and a covered porch to watch sunsets.",
+      "special_requirements": "Off-grid solar battery bank storage space; rainwater harvesting tank integration; lightweight framing easy to build on rocky ground.",
+      "inspiration_urls": [],
+      "technical_summary": {
+        "architectural_classification": "SUSTAINABLE / BIOPHILIC TINY HOUSE",
+        "spatial_layout": "Micro-compact multi-functional envelope with vertical volume utilization via mezzanine loft.",
+        "fenestration_and_lighting": "Strategic western operable awning windows for sunset views with deep eaves for solar shading.",
+        "structural_and_materials": "Helical screw pile foundation with light wood-frame SIPs (Structural Insulated Panels) for rapid assembly.",
+        "sustainability_and_mep": [
+          "Zero-grid DC micro-distribution electrical setup.",
+          "Rainwater filtration & gravity-fed graywater irrigation."
+        ],
+        "kickoff_alignment_checklist": [
+          "Confirm local building codes regarding tiny home minimum square footage regulations.",
+          "Determine soil bearing capacity for screw pile anchoring."
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "status": "final_delivered",
+      "created_at": "2026-10-11T11:03:02.868Z",
+      "updated_at": "2026-10-11T11:03:02.869Z",
+      "customer_id": 5,
+      "designer_id": 3,
+      "title": "Discovery Early Learning Academy",
+      "building_type": "school_educational",
+      "plot_dimensions": "120ft x 180ft",
+      "num_floors": 1,
+      "rooms_needed": "4 Classrooms, Sensory Play Hall, Staff Lounge, Secure Courtyard",
+      "style_preference": "Contemporary Child-Centric",
+      "budget_range": "$180,000 - $250,000",
+      "timeline_preference": "3 - 4 months",
+      "description": "A dedicated kindergarten school prioritizing safety, soft daylight, low windowsill heights so kids can see outside, and an internal courtyard shielded from the street.",
+      "special_requirements": "Rounded interior wall corners; non-toxic linoleum flooring; panic button access control doors.",
+      "inspiration_urls": [],
+      "technical_summary": {
+        "architectural_classification": "CONTEMPORARY CHILD-CENTRIC SCHOOL EDUCATIONAL",
+        "spatial_layout": "Single-story perimeter ring layout oriented around a secure central courtyard playground.",
+        "fenestration_and_lighting": "Low sill height windows (18\" above finished floor) with laminated safety glass.",
+        "structural_and_materials": "Non-combustible steel framing with impact-resistant wallboard and bio-based linoleum flooring.",
+        "sustainability_and_mep": [
+          "Low-VOC finishes and high-efficiency MERV 13 filtration ventilation.",
+          "Full ADA child-accessible fixture heights throughout all washrooms."
+        ],
+        "kickoff_alignment_checklist": [
+          "Verify state childcare licensing capacity guidelines.",
+          "Confirm playground safety fall zone clearances."
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "status": "designer_assigned",
+      "created_at": "2026-10-11T11:25:44.985Z",
+      "updated_at": "2026-10-11T11:25:44.985Z",
+      "customer_id": 1,
+      "designer_id": 1,
+      "title": "Scandinavian Warm School & Educational",
+      "building_type": "school_educational",
+      "plot_dimensions": "60ft x 100ft",
+      "num_floors": 2,
+      "rooms_needed": "3 Bedrooms, 2.5 Baths, Open Kitchen, Home Office, Kids Play Area",
+      "style_preference": "Scandinavian Warm",
+      "budget_range": "$100,000 - $180,000 (Planning Expectation)",
+      "timeline_preference": "3 - 4 months",
+      "description": "I want lots of natural morning sunlight in the kitchen and living room. We love hosting family on weekends, so an open space flowing seamlessly to an outdoor patio is essential. We also need a quiet, acoustically insulated home office for remote work.",
+      "special_requirements": "Wheelchair-friendly ground floor entrance; future solar roof conduit integration; warm timber accents instead of cold hospital white walls.",
+      "inspiration_urls": [],
+      "technical_summary": {
+        "architectural_classification": "Scandinavian Warm SCHOOL EDUCATIONAL",
+        "spatial_layout": "Open-concept continuous spatial flow with column-free spans, integrating kitchen-dining-living into a unified great room with visual axis to outdoor courtyard.",
+        "fenestration_and_lighting": "High-performance solar orientation: East/South-facing clerestory glazing, floor-to-ceiling curtain walls, and UV-filtering double-glazed units for daylight factor optimization without thermal overheating.",
+        "structural_and_materials": "Glulam / Mass Timber hybrid structural frame, engineered oak finishes, acoustic wood-slat cladding, and natural textured plaster.",
+        "sustainability_and_mep": [
+          "Rooftop Photovoltaic (PV) array conduit pre-install & inverter battery storage provision.",
+          "Integrated biophilic living wall system, rainwater greywater catchment, and sedum green roof.",
+          "STC 55+ acoustic partition assemblies and floating sub-floor decoupling for sound transmission loss.",
+          "ADA Universal Design compliance: zero-threshold entries, 36\"+ minimum door clearance, and accessible turning radius."
+        ],
+        "kickoff_alignment_checklist": [
+          "Confirm preferred floor-to-ceiling heights (standard 9ft vs voluminous 10-12ft).",
+          "Review municipal setback requirements and zoning height restrictions for plot.",
+          "Confirm desired thermal insulation standard (Code compliance vs Net-Zero / Passive House).",
+          "Verify student egress capacity, emergency fire exits, and flexible modular classroom configurations."
+        ],
+        "generated_at": "2026-10-11T11:25:44.985Z"
+      }
+    },
+    {
+      "id": 6,
+      "status": "designer_assigned",
+      "created_at": "2026-10-21T12:36:53.633Z",
+      "updated_at": "2026-10-21T12:37:40.411Z",
+      "customer_id": 6,
+      "designer_id": 7,
+      "title": "Contemporary Child-Centric Tiny House & Cabin",
+      "building_type": "tiny_house",
+      "plot_dimensions": "60ft x 100ft",
+      "num_floors": 2,
+      "rooms_needed": "3 Bedrooms, 2.5 Baths, Open Kitchen, Home Office, Kids Play Area",
+      "style_preference": "Contemporary Child-Centric",
+      "budget_range": "$100,000 - $180,000 (Planning Expectation)",
+      "timeline_preference": "3 - 4 months",
+      "description": "I want lots of natural morning sunlight in the kitchen and living room. We love hosting family on weekends, so an open space flowing seamlessly to an outdoor patio is essential. We also need a quiet, acoustically insulated home office for remote work.",
+      "special_requirements": "Wheelchair-friendly ground floor entrance; future solar roof conduit integration; warm timber accents instead of cold hospital white walls.",
+      "inspiration_urls": [],
+      "technical_summary": {
+        "architectural_classification": "Contemporary Child-Centric TINY HOUSE",
+        "spatial_layout": "Open-concept continuous spatial flow with column-free spans, integrating kitchen-dining-living into a unified great room with visual axis to outdoor courtyard.",
+        "fenestration_and_lighting": "High-performance solar orientation: East/South-facing clerestory glazing, floor-to-ceiling curtain walls, and UV-filtering double-glazed units for daylight factor optimization without thermal overheating.",
+        "structural_and_materials": "Glulam / Mass Timber hybrid structural frame, engineered oak finishes, acoustic wood-slat cladding, and natural textured plaster.",
+        "sustainability_and_mep": [
+          "Rooftop Photovoltaic (PV) array conduit pre-install & inverter battery storage provision.",
+          "Integrated biophilic living wall system, rainwater greywater catchment, and sedum green roof.",
+          "STC 55+ acoustic partition assemblies and floating sub-floor decoupling for sound transmission loss.",
+          "ADA Universal Design compliance: zero-threshold entries, 36\"+ minimum door clearance, and accessible turning radius."
+        ],
+        "kickoff_alignment_checklist": [
+          "Confirm preferred floor-to-ceiling heights (standard 9ft vs voluminous 10-12ft).",
+          "Review municipal setback requirements and zoning height restrictions for plot.",
+          "Confirm desired thermal insulation standard (Code compliance vs Net-Zero / Passive House)."
+        ],
+        "generated_at": "2026-10-21T12:36:53.632Z"
+      }
+    },
+    {
+      "id": 7,
+      "status": "submitted",
+      "created_at": "2026-10-21T12:42:26.212Z",
+      "updated_at": "2026-10-21T12:42:26.212Z",
+      "customer_id": 7,
+      "designer_id": null,
+      "title": "Modern Minimalist Residential Home",
+      "building_type": "residential_home",
+      "plot_dimensions": "60ft x 100ft",
+      "num_floors": 2,
+      "rooms_needed": "3 Bedrooms, 2.5 Baths, Open Kitchen, Home Office, Kids Play Area",
+      "style_preference": "Modern Minimalist",
+      "budget_range": "$100,000 - $180,000 (Planning Expectation)",
+      "timeline_preference": "3 - 4 months",
+      "description": "I want lots of natural morning sunlight in the kitchen and living room. We love hosting family on weekends, so an open space flowing seamlessly to an outdoor patio is essential. We also need a quiet, acoustically insulated home office for remote work.",
+      "special_requirements": "Wheelchair-friendly ground floor entrance; future solar roof conduit integration; warm timber accents instead of cold hospital white walls.",
+      "inspiration_urls": [],
+      "technical_summary": {
+        "architectural_classification": "Modern Minimalist RESIDENTIAL HOME",
+        "spatial_layout": "Open-concept continuous spatial flow with column-free spans, integrating kitchen-dining-living into a unified great room with visual axis to outdoor courtyard.",
+        "fenestration_and_lighting": "High-performance solar orientation: East/South-facing clerestory glazing, floor-to-ceiling curtain walls, and UV-filtering double-glazed units for daylight factor optimization without thermal overheating.",
+        "structural_and_materials": "Glulam / Mass Timber hybrid structural frame, engineered oak finishes, acoustic wood-slat cladding, and natural textured plaster.",
+        "sustainability_and_mep": [
+          "Rooftop Photovoltaic (PV) array conduit pre-install & inverter battery storage provision.",
+          "Integrated biophilic living wall system, rainwater greywater catchment, and sedum green roof.",
+          "STC 55+ acoustic partition assemblies and floating sub-floor decoupling for sound transmission loss.",
+          "ADA Universal Design compliance: zero-threshold entries, 36\"+ minimum door clearance, and accessible turning radius."
+        ],
+        "kickoff_alignment_checklist": [
+          "Confirm preferred floor-to-ceiling heights (standard 9ft vs voluminous 10-12ft).",
+          "Review municipal setback requirements and zoning height restrictions for plot.",
+          "Confirm desired thermal insulation standard (Code compliance vs Net-Zero / Passive House)."
+        ],
+        "generated_at": "2026-10-21T12:42:26.212Z"
+      }
+    },
+    {
+      "id": 8,
+      "status": "concept_drafting",
+      "created_at": "2026-11-04T12:39:08.162Z",
+      "updated_at": "2026-11-04T12:39:08.232Z",
+      "customer_id": 4,
+      "designer_id": 1,
+      "title": "Modern Timber Hillside Haven",
+      "building_type": "residential_home",
+      "plot_dimensions": "75ft x 120ft",
+      "num_floors": 2,
+      "rooms_needed": "4 Bedrooms, 3.5 Baths, L-shaped kitchen, Home theater",
+      "style_preference": "Scandinavian Warm",
+      "budget_range": "$200,000 - $350,000",
+      "timeline_preference": "3 - 4 months",
+      "description": "We love natural cedar wood, want an L-shaped staircase safe for our toddler, and large floor-to-ceiling windows overlooking the woods.",
+      "inspiration_urls": [],
+      "technical_summary": {
+        "architectural_classification": "Scandinavian Warm RESIDENTIAL HOME",
+        "spatial_layout": "2-story program with clear distinction between public entertaining zones and private resting quarters.",
+        "fenestration_and_lighting": "High-performance solar orientation: East/South-facing clerestory glazing, floor-to-ceiling curtain walls, and UV-filtering double-glazed units for daylight factor optimization without thermal overheating.",
+        "structural_and_materials": "Glulam / Mass Timber hybrid structural frame, engineered oak finishes, acoustic wood-slat cladding, and natural textured plaster.",
+        "sustainability_and_mep": [
+          "Passive cross-ventilation orientation, smart energy-star HVAC split systems, and low-VOC paints."
+        ],
+        "kickoff_alignment_checklist": [
+          "Confirm preferred floor-to-ceiling heights (standard 9ft vs voluminous 10-12ft).",
+          "Review municipal setback requirements and zoning height restrictions for plot.",
+          "Confirm desired thermal insulation standard (Code compliance vs Net-Zero / Passive House)."
+        ],
+        "generated_at": "2026-11-04T12:39:08.161Z"
+      }
+    },
+    {
+      "id": 9,
+      "status": "concept_drafting",
+      "created_at": "2026-11-19T17:28:07.319Z",
+      "updated_at": "2026-11-19T17:28:07.383Z",
+      "customer_id": 4,
+      "designer_id": 1,
+      "title": "Modern Timber Hillside Haven",
+      "building_type": "residential_home",
+      "plot_dimensions": "75ft x 120ft",
+      "num_floors": 2,
+      "rooms_needed": "4 Bedrooms, 3.5 Baths, L-shaped kitchen, Home theater",
+      "style_preference": "Scandinavian Warm",
+      "budget_range": "$200,000 - $350,000",
+      "timeline_preference": "3 - 4 months",
+      "description": "We love natural cedar wood, want an L-shaped staircase safe for our toddler, and large floor-to-ceiling windows overlooking the woods.",
+      "inspiration_urls": [],
+      "technical_summary": {
+        "architectural_classification": "Scandinavian Warm RESIDENTIAL HOME",
+        "spatial_layout": "2-story program with clear distinction between public entertaining zones and private resting quarters.",
+        "fenestration_and_lighting": "High-performance solar orientation: East/South-facing clerestory glazing, floor-to-ceiling curtain walls, and UV-filtering double-glazed units for daylight factor optimization without thermal overheating.",
+        "structural_and_materials": "Glulam / Mass Timber hybrid structural frame, engineered oak finishes, acoustic wood-slat cladding, and natural textured plaster.",
+        "sustainability_and_mep": [
+          "Passive cross-ventilation orientation, smart energy-star HVAC split systems, and low-VOC paints."
+        ],
+        "kickoff_alignment_checklist": [
+          "Confirm preferred floor-to-ceiling heights (standard 9ft vs voluminous 10-12ft).",
+          "Review municipal setback requirements and zoning height restrictions for plot.",
+          "Confirm desired thermal insulation standard (Code compliance vs Net-Zero / Passive House)."
+        ],
+        "generated_at": "2026-11-19T17:28:07.319Z"
+      }
+    }
+  ],
+  "deliverables": [
+    {
+      "id": 1,
+      "created_at": "2026-10-11T11:03:02.862Z",
+      "status": "revision_requested",
+      "version": 1,
+      "project_id": 1,
+      "designer_id": 1,
+      "stage": "concept_draft",
+      "title": "Ground & Upper Level Spatial Floor Plan v1.2",
+      "description": "Detailed 2D layout showing room adjacencies, eastern sun orientation vectors, acoustic home office buffer, and ground floor accessible suite.",
+      "file_url": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1200&q=80",
+      "file_type": "image"
+    },
+    {
+      "id": 2,
+      "created_at": "2026-10-11T11:03:02.863Z",
+      "status": "pending_review",
+      "version": 1,
+      "project_id": 1,
+      "designer_id": 1,
+      "stage": "schematic_drawings",
+      "title": "3D Exterior Render & Morning Sun Light Study",
+      "description": "High-resolution photometric render demonstrating 8:30 AM sun penetration through the eastern clerestory into the kitchen breakfast nook.",
+      "file_url": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80",
+      "file_type": "image"
+    },
+    {
+      "id": 3,
+      "created_at": "2026-10-11T11:03:02.870Z",
+      "status": "approved",
+      "version": 3,
+      "project_id": 4,
+      "designer_id": 3,
+      "stage": "final_delivery",
+      "title": "Complete Architectural Blueprints & Permit Construction Set (PDF + DWG)",
+      "description": "Full architectural construction document package including site plan, foundation details, life-safety egress plans, and window schedules ready for city permit approval.",
+      "file_url": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=1200&q=80",
+      "file_type": "image"
+    },
+    {
+      "id": 4,
+      "created_at": "2026-11-04T12:39:08.213Z",
+      "status": "revision_requested",
+      "version": 1,
+      "project_id": 8,
+      "designer_id": 1,
+      "stage": "concept_draft",
+      "title": "2D Floor Plan with L-Shaped Timber Staircase v1",
+      "description": "First floor layout incorporating your chosen L-shaped staircase and open living flow.",
+      "file_url": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1200&q=80",
+      "file_type": "image"
+    },
+    {
+      "id": 5,
+      "created_at": "2026-11-19T17:28:07.363Z",
+      "status": "revision_requested",
+      "version": 1,
+      "project_id": 9,
+      "designer_id": 1,
+      "stage": "concept_draft",
+      "title": "2D Floor Plan with L-Shaped Timber Staircase v1",
+      "description": "First floor layout incorporating your chosen L-shaped staircase and open living flow.",
+      "file_url": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1200&q=80",
+      "file_type": "image"
+    }
+  ],
+  "revisions": [
+    {
+      "id": 1,
+      "created_at": "2026-10-11T11:03:02.864Z",
+      "status": "open",
+      "deliverable_id": 1,
+      "project_id": 1,
+      "customer_id": 4,
+      "feedback_text": "Can we widen the sliding glass door to the patio from 8ft to 12ft so the deck feels like a true extension of the living room?",
+      "pin_x": 62.5,
+      "pin_y": 44
+    },
+    {
+      "id": 2,
+      "created_at": "2026-11-04T12:39:08.228Z",
+      "status": "open",
+      "deliverable_id": 4,
+      "project_id": 8,
+      "customer_id": 4,
+      "feedback_text": "Can we add a built-in safety gate pocket at the top of the landing?",
+      "pin_x": 48.5,
+      "pin_y": 35.2
+    },
+    {
+      "id": 3,
+      "created_at": "2026-11-19T17:28:07.376Z",
+      "status": "open",
+      "deliverable_id": 5,
+      "project_id": 9,
+      "customer_id": 4,
+      "feedback_text": "Can we add a built-in safety gate pocket at the top of the landing?",
+      "pin_x": 48.5,
+      "pin_y": 35.2
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "created_at": "2026-10-11T11:03:02.875Z",
+      "project_id": 1,
+      "sender_id": 1,
+      "receiver_id": 4,
+      "message_text": "Hi Alex! Welcome to Build My Vision. I have reviewed your submission and translated your daylight requirements into high-performance clerestory glazing specifications. I just uploaded the draft floor plans!"
+    },
+    {
+      "id": 2,
+      "created_at": "2026-10-11T11:03:02.876Z",
+      "project_id": 1,
+      "sender_id": 4,
+      "receiver_id": 1,
+      "message_text": "Thank you Elena! The layout is wonderful. I pinned a quick note on Deliverable #1 about widening the sliding glass door to the patio. Take a look and let me know if that works structurally!"
+    },
+    {
+      "id": 3,
+      "created_at": "2026-10-11T11:03:02.877Z",
+      "project_id": 1,
+      "sender_id": 1,
+      "receiver_id": 4,
+      "message_text": "Absolutely! I checked the load-bearing lintel calculations—we can easily expand it to 12ft with a steel header beam. Updating the 3D render now!"
+    },
+    {
+      "id": 4,
+      "created_at": "2026-10-11T11:26:20.902Z",
+      "project_id": 5,
+      "sender_id": 1,
+      "receiver_id": 1,
+      "message_text": "hii",
+      "attachment_url": null
+    },
+    {
+      "id": 5,
+      "created_at": "2026-10-21T12:38:03.892Z",
+      "project_id": 3,
+      "sender_id": 7,
+      "receiver_id": 4,
+      "message_text": "hiii",
+      "attachment_url": null
+    },
+    {
+      "id": 6,
+      "created_at": "2026-10-21T12:40:15.135Z",
+      "project_id": 6,
+      "sender_id": 6,
+      "receiver_id": 7,
+      "message_text": "hiii",
+      "attachment_url": null
+    },
+    {
+      "id": 7,
+      "created_at": "2026-10-22T13:30:56.917Z",
+      "project_id": 1,
+      "sender_id": 1,
+      "receiver_id": 4,
+      "message_text": "🎨 Design Options for your review: \"Staircase Style Proposals for Main Atrium\". Click on the 'Design Options' tab to view and pick your favorite!",
+      "attachment_url": null
+    },
+    {
+      "id": 8,
+      "created_at": "2026-10-22T13:34:48.541Z",
+      "project_id": 1,
+      "sender_id": 4,
+      "receiver_id": 1,
+      "message_text": "✅ I have chosen: \"L-Shaped with Landing & Safety Rail\"! (Note: We want the landing for child safety and comfortable climbing.)",
+      "attachment_url": null
+    },
+    {
+      "id": 9,
+      "created_at": "2026-11-04T12:39:08.189Z",
+      "project_id": 8,
+      "sender_id": 1,
+      "receiver_id": 4,
+      "message_text": "🎨 Design Options for your review: \"Staircase Style Proposals for Hillside Haven\". Click on the 'Design Options' tab to view and pick your favorite!",
+      "attachment_url": null
+    },
+    {
+      "id": 10,
+      "created_at": "2026-11-04T12:39:08.204Z",
+      "project_id": 8,
+      "sender_id": 4,
+      "receiver_id": 1,
+      "message_text": "✅ I have chosen: \"L-Shaped Timber Staircase with Wide Rest Landing\"! (Note: This is perfect for the kids and matches our warm wood look.)",
+      "attachment_url": null
+    },
+    {
+      "id": 11,
+      "created_at": "2026-11-19T17:28:07.344Z",
+      "project_id": 9,
+      "sender_id": 1,
+      "receiver_id": 4,
+      "message_text": "🎨 Design Options for your review: \"Staircase Style Proposals for Hillside Haven\". Click on the 'Design Options' tab to view and pick your favorite!",
+      "attachment_url": null
+    },
+    {
+      "id": 12,
+      "created_at": "2026-11-19T17:28:07.354Z",
+      "project_id": 9,
+      "sender_id": 4,
+      "receiver_id": 1,
+      "message_text": "✅ I have chosen: \"L-Shaped Timber Staircase with Wide Rest Landing\"! (Note: This is perfect for the kids and matches our warm wood look.)",
+      "attachment_url": null
+    },
+    {
+      "id": 13,
+      "created_at": "2026-11-19T17:37:51.172Z",
+      "project_id": 9,
+      "sender_id": 1,
+      "receiver_id": 4,
+      "message_text": "hiiii",
+      "attachment_url": null
+    },
+    {
+      "id": 14,
+      "created_at": "2026-11-19T17:39:30.018Z",
+      "project_id": 9,
+      "sender_id": 4,
+      "receiver_id": 1,
+      "message_text": "✅ I have chosen: \"Floating Oak Cantilevered Steps with Glass Railing\"! (Note: Preferred Floating Oak Cantilevered Steps with Glass Railing)",
+      "attachment_url": null
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "created_at": "2026-10-11T11:03:02.871Z",
+      "project_id": 4,
+      "customer_id": 5,
+      "designer_id": 3,
+      "rating": 5,
+      "comment": "Sarah was incredible! She took our very basic ideas and translated them into a school design that passed city permitting on the first submission. The children and parents love the sunlit sensory play hall!"
+    }
+  ],
+  "proposals": [
+    {
+      "id": 1,
+      "status": "decided",
+      "created_at": "2026-10-22T13:30:56.904Z",
+      "project_id": 1,
+      "designer_id": 1,
+      "title": "Staircase Style Proposals for Main Atrium",
+      "category": "staircase",
+      "description": "Here are 3 staircase concepts for your home. Please select your preferred style!",
+      "options": [
+        {
+          "id": "straight",
+          "name": "Straight-Run Floating Staircase",
+          "tagline": "Clean & Architectural",
+          "description": "Open risers and cantilevered oak treads giving an airy, luminous floating effect.",
+          "image_url": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=600&q=80",
+          "pros": [
+            "Maximizes natural light flow",
+            "Minimal footprint",
+            "Stunning modern focal point"
+          ]
+        },
+        {
+          "id": "l_shaped",
+          "name": "L-Shaped with Landing & Safety Rail",
+          "tagline": "Comfortable & Family Friendly",
+          "description": "Includes a 90-degree central turn with a wide rest landing, ideal for children and elders.",
+          "image_url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=600&q=80",
+          "pros": [
+            "Safer descent with mid-level resting platform",
+            "Creates visual acoustic separation"
+          ]
+        },
+        {
+          "id": "under_storage",
+          "name": "Storage-Integrated Timber Staircase",
+          "tagline": "Maximum Utility & Smart Storage",
+          "description": "Closed risers equipped with built-in push-to-open pullout cabinets and reading nook.",
+          "image_url": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=600&q=80",
+          "pros": [
+            "Zero wasted space",
+            "Concealed storage for family clutter",
+            "Warm wood aesthetic"
+          ]
+        }
+      ],
+      "selected_option_id": "l_shaped",
+      "customer_note": "We want the landing for child safety and comfortable climbing."
+    },
+    {
+      "id": 2,
+      "status": "decided",
+      "created_at": "2026-11-04T12:39:08.187Z",
+      "project_id": 8,
+      "designer_id": 1,
+      "title": "Staircase Style Proposals for Hillside Haven",
+      "category": "staircases",
+      "description": "Here are 3 options tailored to your toddler safety requirement and timber aesthetic!",
+      "options": [
+        {
+          "id": "l_shaped_timber",
+          "name": "L-Shaped Timber Staircase with Wide Rest Landing",
+          "tagline": "Child-Safe & Warm Wood",
+          "description": "Solid white oak treads with integrated safety balusters and a mid-level landing.",
+          "image_url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=600&q=80",
+          "pros": [
+            "Safer descent for toddlers",
+            "Warm Scandinavian feel"
+          ]
+        },
+        {
+          "id": "floating_oak",
+          "name": "Floating Oak Cantilevered Steps with Glass Railing",
+          "tagline": "Modern & High Light Transmission",
+          "description": "Cantilevered treads with full-height laminated safety glass balustrade.",
+          "image_url": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=600&q=80",
+          "pros": [
+            "Maximizes daylight flow",
+            "Striking architectural centerpiece"
+          ]
+        }
+      ],
+      "selected_option_id": "l_shaped_timber",
+      "customer_note": "This is perfect for the kids and matches our warm wood look."
+    },
+    {
+      "id": 3,
+      "status": "decided",
+      "created_at": "2026-11-19T17:28:07.340Z",
+      "project_id": 9,
+      "designer_id": 1,
+      "title": "Staircase Style Proposals for Hillside Haven",
+      "category": "staircases",
+      "description": "Here are 3 options tailored to your toddler safety requirement and timber aesthetic!",
+      "options": [
+        {
+          "id": "l_shaped_timber",
+          "name": "L-Shaped Timber Staircase with Wide Rest Landing",
+          "tagline": "Child-Safe & Warm Wood",
+          "description": "Solid white oak treads with integrated safety balusters and a mid-level landing.",
+          "image_url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=600&q=80",
+          "pros": [
+            "Safer descent for toddlers",
+            "Warm Scandinavian feel"
+          ]
+        },
+        {
+          "id": "floating_oak",
+          "name": "Floating Oak Cantilevered Steps with Glass Railing",
+          "tagline": "Modern & High Light Transmission",
+          "description": "Cantilevered treads with full-height laminated safety glass balustrade.",
+          "image_url": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=600&q=80",
+          "pros": [
+            "Maximizes daylight flow",
+            "Striking architectural centerpiece"
+          ]
+        }
+      ],
+      "selected_option_id": "floating_oak",
+      "customer_note": "Preferred Floating Oak Cantilevered Steps with Glass Railing"
+    }
+  ]
+}
